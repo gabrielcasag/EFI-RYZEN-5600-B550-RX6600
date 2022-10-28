@@ -11,25 +11,25 @@ OpenCore, drivers, and kexts are always up to date!
 :warning: **DISCLAIMER:**
 This is not a guide, please refer to [Dortania](https://dortania.github.io/getting-started/) before doing anything. I am not responsible for any damage. This OpenCore configuration is optimized for my specific hardware, so please use it only as a reference or if you happen to have the same or similar hardware.
 
+<img src="assets/about-ryzentosh.png">
 
 ## :computer: Hardware:
 
-| **Category** | **Component**                         |
-| ------------ | ------------------------------------- |
-| **CPU**      | Ryzen 5600                            |
-| **GPU**      | ASROCK RX 6600 Challenger 8GB         |
-| **RAM**      | 16GB GLOWAY DDR4 3200MHZ              |
+| **Category** | **Component**                                                              |
+| ------------ | -------------------------------------------------------------------------- |
+| **CPU**      | Ryzen 5600                                                                 |
+| **GPU**      | ASROCK RX 6600 Challenger 8GB                                              |
+| **RAM**      | 16GB GLOWAY DDR4 3200MHZ                                                   |
 | **CHIPSET**  | B550 [Gigabyte](https://www.gigabyte.com/Motherboard/B550M-DS3H-rev-1x#kf) |
-| **SSD**      | 120GB ADATA SATA                      |
-| **Wi-Fi/BT** | -      |
-| **Ethernet** | Realtek RTL8111                       |
-| **Audio**    | Realtek ALC897 (layout-id=11)         |
+| **SSD**      | 120GB ADATA SATA                                                           |
+| **Wi-Fi/BT** | -                                                                          |
+| **Ethernet** | Realtek RTL8111                                                            |
+| **Audio**    | Realtek ALC897 (layout-id=11)                                              |
 
 ## :white_check_mark: Working:
 
 - [x] CPU power management.
 - [x] Graphics acceleration.
-- [x] Battery read-out.
 - [x] Keyboard & Mouse
 - [ ] Wi-Fi.
 - [ ] Bluetooth.
@@ -49,7 +49,7 @@ Only AirDrop and Handoff are not working since the Intel card are not fully comp
 
 ## :closed_lock_with_key: SMBIOS
 
-You will need to generate your own SMBIOS and configure, since is required to fully work with macOS. As per this [guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#platforminfo) you can use the following SMBIOS: MacbookPro 14,1.
+You will need to generate your own SMBIOS and configure, since is required to fully work with macOS. As per this [guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#platforminfo) you can use the following SMBIOS: iMacPro1,1 or MacPro7,1. Note that if your hardware is different for the one mentioned [here](#computer-hardware) you have tho choose an appropriate SMBIOS, more details in the [guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html).
 
 Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own unique SMBIOS and then copy each parametter following path (recomended to follow the guide above):
 
@@ -57,9 +57,7 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own uniq
 
 <img src="assets/smbios.png">
 
-
 ## BIOS setup:
-
 
 ## Credits:
 
