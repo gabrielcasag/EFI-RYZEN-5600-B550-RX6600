@@ -45,7 +45,8 @@ This is not a guide, please refer to [Dortania](https://dortania.github.io/getti
 
 ## :x: Not working:
 
-Only AirDrop and Handoff are not working since the Intel card are not fully compatible with macOS. To make these things works you need to replace with a native card one, like the Fenvi cards.
+Wi-fi, Bluetooth and AirDrop are not working since i don't have yet a native Wi-fi card and my motherboard doesn't have one.
+Currently using with wired network on my ethernet port
 
 ## :closed_lock_with_key: SMBIOS
 
