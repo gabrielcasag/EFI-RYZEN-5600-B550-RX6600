@@ -33,7 +33,7 @@
 				<key>IOPropertyMatch</key>
 				<dict>
 					<key>pcidebug</key>
-					<string>1:0:0</string>
+					<string>2:0:0</string>
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
@@ -50,21 +50,21 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
-						<key>#port</key>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
 						<data>
 						BQAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>HS02</key>
 					<dict>
-						<key>#port</key>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
 						<data>
 						BgAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>HS03</key>
 					<dict>
@@ -105,7 +105,7 @@
 					<key>HS07</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						CwAAAA==
@@ -113,12 +113,12 @@
 					</dict>
 					<key>HS08</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						DAAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS09</key>
 					<dict>
@@ -190,7 +190,7 @@
 				<key>IOPropertyMatch</key>
 				<dict>
 					<key>pcidebug</key>
-					<string>8:0:3</string>
+					<string>10:0:3</string>
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
