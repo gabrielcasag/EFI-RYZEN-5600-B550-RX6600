@@ -9,37 +9,39 @@ OpenCore, drivers, and kexts are always up to date!
 [![macOS](https://img.shields.io/badge/macOS-13.3-F09337.svg)](https://www.apple.com/macos/ventura)
 
 :warning: **DISCLAIMER:**
-This is not a guide, please refer to [Dortania](https://dortania.github.io/getting-started/) before doing anything. I am not responsible for any damage. This OpenCore configuration is optimized for my specific hardware, so please use it only as a reference or if you happen to have the same or similar hardware.
+THIS IS NOT A GUIDE!
+<br/>
+It's just my complete EFI for my hardware based on my experiments, please refer to [Dortania](https://dortania.github.io/getting-started/) before doing anything. I am not responsible for any damage. This OpenCore configuration is optimized for my specific hardware, so please use it only as a reference or if you happen to have the same or similar hardware.
 
-<img src="assets/about-ryzentosh.png">
+<img src="assets/about-ryzentosh.png" style="width: 800px; height: auto;">
 
 ## :computer: Hardware:
 
-| **Category** | **Component**                                                              |
-| ------------ | -------------------------------------------------------------------------- |
-| **CPU**      | Ryzen 5600                                                                 |
-| **GPU**      | ASROCK RX 6600 Challenger 8GB                                              |
-| **RAM**      | 16GB GLOWAY DDR4 3200MHZ                                                   |
-| **CHIPSET**  | B550 [Gigabyte](https://www.gigabyte.com/Motherboard/B550M-DS3H-rev-1x#kf) |
-| **SSD**      | 120GB ADATA SATA                                                           |
-| **Wi-Fi/BT** | -                                                                          |
-| **Ethernet** | Realtek RTL8111                                                            |
-| **Audio**    | Realtek ALC897 (layout-id=11)                                              |
+| **Category** | **Component**                                                                    |
+| ------------ | -------------------------------------------------------------------------------- |
+| **CPU**      | 3,5 GHz AMD Ryzen 5 5600 6-Core Processor                                        |
+| **GPU**      | ASROCK Challenger - AMD Radeon RX 6600 8 GB Challenger 8GB                       |
+| **RAM**      | 16GB GLOWAY DDR4 3200MHZ (XMP)                                                   |
+| **CHIPSET**  | B550M DS3H [Gigabyte](https://www.gigabyte.com/Motherboard/B550M-DS3H-rev-1x#kf) |
+| **SSD**      | 120GB ADATA SATA                                                                 |
+| **Wi-Fi/BT** | Fenvi FV-HB1200                                                                  |
+| **Ethernet** | Realtek RTL8111                                                                  |
+| **Audio**    | Realtek ALC897 (layout-id=12)                                                    |
 
 ## :white_check_mark: Working:
 
 - [x] CPU power management.
 - [x] Graphics acceleration.
 - [x] Keyboard & Mouse
-- [ ] Wi-Fi.
-- [ ] Bluetooth.
+- [x] Wi-Fi.
+- [x] Bluetooth.
 - [x] USB ports.
 - [x] HDMI video & audio output.
 - [x] Ethernet.
 - [x] Audio (Internal speakers, 3.5mm headphone jack).
 - [x] Internal microphone.
 - [x] VGA WebCam.
-- [ ] AirDrop & Handoff.
+- [x] AirDrop & Handoff.
 - [x] iCloud & App Store.
 - [x] iMessage & FaceTime.
 
@@ -56,9 +58,11 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own uniq
 
 - Config.plist -> PlatformInfo -> Generic
 
-<img src="assets/smbios.png">
+<img src="assets/smbios.png" style="width: 800px; height: auto;">
 
 ## BIOS setup:
+
+<img src="assets/config-b550m-ds3h-rev1.0-biosF15.jpg" style="width: 800px; height: auto;">
 
 ## Credits:
 
