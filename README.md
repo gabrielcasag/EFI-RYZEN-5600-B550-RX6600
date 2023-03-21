@@ -5,8 +5,8 @@ OpenCore, drivers, and kexts are always up to date!
 
 <br/>
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.9-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS](https://img.shields.io/badge/macOS-13.3-F09337.svg)](https://www.apple.com/macos/ventura)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.0-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS](https://img.shields.io/badge/macOS-13.2.1-F09337.svg)](https://www.apple.com/macos/ventura)
 
 :warning: **DISCLAIMER:**
 THIS IS NOT A GUIDE!
@@ -61,6 +61,8 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own uniq
 <img src="assets/smbios.png" style="width: 800px; height: auto;">
 
 ## BIOS setup:
+
+**If you wan't to use Resizable Bars as Auto to work on Windows, u need to change the config.plist from -1 to a number greater than 0**
 
 <img src="assets/config-b550m-ds3h-rev1.0-biosF15.jpg" style="width: 800px; height: auto;">
 
