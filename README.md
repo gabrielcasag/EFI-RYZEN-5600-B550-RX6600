@@ -6,14 +6,14 @@ OpenCore, drivers, and kexts are always up to date!
 <br/>
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.9.0-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS](https://img.shields.io/badge/macOS-13.2.1-F09337.svg)](https://www.apple.com/macos/ventura)
+[![macOS](https://img.shields.io/badge/macOS-13.3-F09337.svg)](https://www.apple.com/macos/ventura)
 
 :warning: **DISCLAIMER:**
 THIS IS NOT A GUIDE!
 <br/>
 It's just my complete EFI for my hardware based on my experiments, please refer to [Dortania](https://dortania.github.io/getting-started/) before doing anything. I am not responsible for any damage. This OpenCore configuration is optimized for my specific hardware, so please use it only as a reference or if you happen to have the same or similar hardware.
 
-<img src="assets/about-ryzentosh.png" style="width: 800px; height: auto;">
+<img src="assets/about-ryzentosh-13.3.png" style="width: 800px; height: auto;">
 
 ## :computer: Hardware:
 
@@ -47,8 +47,10 @@ It's just my complete EFI for my hardware based on my experiments, please refer 
 
 ## :x: Not working:
 
-Wi-fi, Bluetooth and AirDrop are not working since i don't have yet a native Wi-fi card and my motherboard doesn't have one.
-Currently using with wired network on my ethernet port
+~~Wi-fi, Bluetooth and AirDrop are not working since i don't have yet a native Wi-fi card and my motherboard doesn't have one.
+Currently using with wired network on my ethernet port~~
+
+All features are working, just added a Fenvi FV-HB1200 board. Now we have Wi-Fi, Bluetooth (usb mapped), AirDrop and others.
 
 ## :closed_lock_with_key: SMBIOS
 
@@ -62,16 +64,18 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own uniq
 
 ## BIOS setup:
 
-**If you wan't to use Resizable Bars as Auto to work on Windows, u need to change the config.plist from -1 to a number greater than 0**
+**If you wan't to use Resizable Bars as Auto to work on Windows, u need to change on the config.plist, the ResizeAppleGpuBars key from -1 to a number greater than 0**
 
 <img src="assets/config-b550m-ds3h-rev1.0-biosF15.jpg" style="width: 800px; height: auto;">
 
 ## Credits:
 
-[**Apple**](http://apple.com/)
+[**Myself**](https://github.com/gabrielcasag)
+
+[**Gabriel Luchina**](https://luchina.com.br)
 
 [**Acidanthera**](https://github.com/acidanthera)
 
 [**Dortania**](https://dortania.github.io/getting-started/)
 
-[**Gabriel Luchina**](https://luchina.com.br)
+[**Apple**](http://apple.com/)
