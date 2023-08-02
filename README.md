@@ -5,7 +5,7 @@ OpenCore, drivers, and kexts are always up to date!
 
 <br/>
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.2-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.3-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS](https://img.shields.io/badge/macOS-13.3.1-F09337.svg)](https://www.apple.com/macos/ventura)
 
 :warning: **DISCLAIMER:**
@@ -64,15 +64,18 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own uniq
 
 ## BIOS setup:
 
-**If you wan't to use Resizable Bars as Auto to work on Windows, u need to change on the config.plist, the ResizeAppleGpuBars key from -1 to a number greater than 0**
+IMPORTANT: Need to **enable** Above 4G Decoding and set Resize BAR to Auto on BIOS or will not work!
+If you don't have this on your BIOS you will need to adjust the config.plist, refer to [AMD bios settings](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings) and [boot-args](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#nvram)
+
 
 <img src="assets/config-b550m-ds3h-rev1.0-biosF15.jpg" style="width: 800px; height: auto;">
 
+_Currently i'm running the F18 BIOS version and works great_
 ## Credits:
 
-[**Myself**](https://github.com/gabrielcasag)
-
 [**Gabriel Luchina**](https://luchina.com.br)
+
+[**AMD-OSX**](https://github.com/AMD-OSX/AMD_Vanilla)
 
 [**Acidanthera**](https://github.com/acidanthera)
 
