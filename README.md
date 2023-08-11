@@ -5,7 +5,7 @@ OpenCore, drivers, and kexts are always up to date!
 
 <br/>
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.3-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.4-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS](https://img.shields.io/badge/macOS-13.5-F09337.svg)](https://www.apple.com/macos/ventura)
 
 :warning: **DISCLAIMER:**
@@ -13,7 +13,7 @@ THIS IS NOT A GUIDE!
 <br/>
 It's just my complete EFI for my hardware based on my experiments, please refer to [Dortania](https://dortania.github.io/getting-started/) before doing anything. I am not responsible for any damage. This OpenCore configuration is optimized for my specific hardware, so please use it only as a reference or if you happen to have the same or similar hardware.
 
-<img src="assets/about-ryzentosh-13.3.png" style="width: 800px; height: auto;">
+<img src="assets/about-ryzentosh-13.5.png" style="width: 800px; height: auto;">
 
 ## :computer: Hardware:
 
