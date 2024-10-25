@@ -1,19 +1,19 @@
 # EFI-RYZEN-B550-RX6600
 
-:information_source: **The current version is fully macOS Monterey and Ventura compatible.**
-OpenCore, drivers, and kexts are always up to date!
+:information_source: **The current version is fully macOS Monterey to macOS Sequoia compatible.**
+OpenCore, drivers, and kexts are always up to date! (as soon as possible)
 
 <br/>
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.0-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS](https://img.shields.io/badge/macOS-14.5-F09337.svg)](https://www.apple.com/macos/ventura)
+[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.1-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS](https://img.shields.io/badge/macOS-15-F09337.svg)](https://www.apple.com/macos/ventura)
 
 :warning: **DISCLAIMER:**
 THIS IS NOT A GUIDE!
 <br/>
 It's just my complete EFI for my hardware based on my experiments, please refer to [Dortania](https://dortania.github.io/getting-started/) before doing anything. I am not responsible for any damage. This OpenCore configuration is optimized for my specific hardware, so please use it only as a reference or if you happen to have the same or similar hardware.
 
-<img src="assets/about-ryzentosh-14.5.png" style="width: 800px; height: auto;">
+<img src="assets/about-ryzentosh-15.0.png" style="width: 800px; height: auto;">
 
 ## :computer: Hardware:
 
